@@ -22,7 +22,7 @@ Route::group(['prefix' => 'admin'], function() {
 
 // 課題の３
 
-Route::get('http//xxxxxx.jp/xxx', 'Admin\AAAController@bbb');
+Route::get('xxx', 'AAAController@bbb');
 
 // 課題の４
 
