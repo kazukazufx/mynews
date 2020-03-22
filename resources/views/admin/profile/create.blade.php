@@ -8,10 +8,10 @@
             <title>Mynews</title>
         </head>
         <body>
-            <h1>Myニュース作成画面!!!</h1> 
+            <h1>プロフィール作成画面!!!</h1> 
             @extends('layouts.profile')
             
-            @section('title', 'プロフィール')
+            @section('title', 'プロフィールの新規作成')
             
             @section('content')
             <div class="container">
