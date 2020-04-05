@@ -35,14 +35,14 @@
                             </div>
                             <div class="form-check">
                                 <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" nema="remove" value="true">画像を削除
+                                    <input type="checkbox" class="form-check-input" name="remove" value="true">画像を削除
                                 </label>
                             </div>
                         </div>
                     </div>
                     <div class="form-group row">
                         <div class="col-md-10">
-                            <input type="hidden" name="news_id" value="{{ $news_form->id }}">
+                            <input type="hidden" name="id" value="{{ $news_form->id }}">
                             {{ csrf_field() }}
                             <input type="submit" class="btn btn-primary" value="更新">
                         </div>
