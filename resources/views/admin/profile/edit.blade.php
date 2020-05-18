@@ -52,8 +52,8 @@
                         <h2>プロフィール編集履歴</h2>
                         <ul class="list-group">
                             @if ($profile_form->profile_histories != NULL)
-                                @foreach ($profile_form->histories as $profile_histories)
-                                    <li class="list-group-item">{{ $history->edited_at}}</li>
+                                @foreach ($profile_form->profile_histories as $profile_history)
+                                    <li class="list-group-item">{{ $profile_history->edited_at}}</li>
                                 @endforeach
                             @endif
                         </ul>
