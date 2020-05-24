@@ -15,6 +15,7 @@
                                     @endif
                                 </div>
                                 <div class="title p-2">
+                                    <p>課題の追加開発</p>
                                     <h1>{{ str_limit($headline->title, 70) }}</h1>
                                 </div>
                             </div>
